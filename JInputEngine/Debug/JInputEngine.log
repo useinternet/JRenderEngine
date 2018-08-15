@@ -1,7 +1,1 @@
-﻿  Command.cpp
-  DirectInput.cpp
-  c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-  PresseManager.cpp
-  c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-  코드를 생성하고 있습니다...
-  JInputEngine.vcxproj -> C:\Users\usein\OneDrive\바탕 화면\백업파일\새 폴더\JRenderEngine\JInputEngine\Bin_Debug/JInputEngine.lib
+﻿  JInputEngine.vcxproj -> C:\Users\usein\OneDrive\바탕 화면\프로젝트\JRenderEngine\JInputEngine\Bin_Debug/JInputEngine.lib
