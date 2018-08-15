@@ -1,0 +1,314 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="WinMain">
+      <UniqueIdentifier>{69b54611-69ce-46e2-96b5-792eb8df1fd0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RenderHeaderFile">
+      <UniqueIdentifier>{e2380d84-e0ac-48c7-931a-95fbcf2cea9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DirectX">
+      <UniqueIdentifier>{bc232a7b-3a4a-4688-b22e-99e65cc320db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RenderEngineMain">
+      <UniqueIdentifier>{c402be9a-e275-4d20-9ca2-da4b2018e882}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Loader">
+      <UniqueIdentifier>{49855121-9bf2-4bb0-aad9-0fd0823cc1c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mesh">
+      <UniqueIdentifier>{eb14c12a-2cf7-4268-ba3e-754ab6685b7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader">
+      <UniqueIdentifier>{481ab144-7a71-40e8-9644-b4ea0c9418a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\ShaderTool">
+      <UniqueIdentifier>{ee40369a-03e8-4ada-bfa0-92ef87c002cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\ShaderParts">
+      <UniqueIdentifier>{d672610e-cc8d-4f0f-a6c1-35ed29f96eff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{e639940e-5e74-4f95-a75e-b7b50c23dd3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component">
+      <UniqueIdentifier>{a7371852-d426-4d85-abac-9a198c1cb529}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Message">
+      <UniqueIdentifier>{1ffaa352-9a8a-4ad0-81bf-a5d636f03cc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\ShaderData">
+      <UniqueIdentifier>{07636412-76c4-4e3a-b11d-89a40ae5fbd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Debug">
+      <UniqueIdentifier>{18ce8bd8-dd01-4149-9487-fc769645d3c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="World">
+      <UniqueIdentifier>{ff8475b1-3b76-48ce-b7bb-368fc5909049}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RenderTexture">
+      <UniqueIdentifier>{df89e31f-9843-4f01-bf83-504aa469ee05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Light">
+      <UniqueIdentifier>{c3139119-21c0-44f6-953b-9fa7b821e462}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Font">
+      <UniqueIdentifier>{57fca9af-7141-43ff-845f-057e30103cea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Terrain">
+      <UniqueIdentifier>{1a251703-f194-4d92-8ef0-6c3864cb68f9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WinMain.cpp">
+      <Filter>WinMain</Filter>
+    </ClCompile>
+    <ClCompile Include="WinMainLoop.cpp">
+      <Filter>WinMain</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderEngine.cpp">
+      <Filter>RenderEngineMain</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectX.cpp">
+      <Filter>DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="AssetLoader.cpp">
+      <Filter>Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureLoader.cpp">
+      <Filter>Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderManager.cpp">
+      <Filter>Shader\ShaderTool</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader_ConstantBuffer_Parts.cpp">
+      <Filter>Shader\ShaderParts</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader_Layout_Compile_Parts.cpp">
+      <Filter>Shader\ShaderParts</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader_SampleState_Parts.cpp">
+      <Filter>Shader\ShaderParts</Filter>
+    </ClCompile>
+    <ClCompile Include="Component.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderComponent.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraComponent.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="JMessage.cpp">
+      <Filter>Message</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureShader.cpp">
+      <Filter>Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="Actor.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="InputComponent.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="World.cpp">
+      <Filter>World</Filter>
+    </ClCompile>
+    <ClCompile Include="ControlComponent.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Pawn.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="MyPawn.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderTexture.cpp">
+      <Filter>RenderTexture</Filter>
+    </ClCompile>
+    <ClCompile Include="Light.cpp">
+      <Filter>Object\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="Font.cpp">
+      <Filter>Font</Filter>
+    </ClCompile>
+    <ClCompile Include="FontLoader.cpp">
+      <Filter>Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="TextComponent.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Text.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="TextShader.cpp">
+      <Filter>Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="Terrain.cpp">
+      <Filter>Object\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="TerrainMapLoader.cpp">
+      <Filter>Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="ColorShader.cpp">
+      <Filter>Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="AmbientLightShader.cpp">
+      <Filter>Shader</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="WinMainLoop.h">
+      <Filter>WinMain</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderEngine.h">
+      <Filter>RenderEngineMain</Filter>
+    </ClInclude>
+    <ClInclude Include="JRenderEngine.h">
+      <Filter>RenderHeaderFile</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX.h">
+      <Filter>DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="AssetLoader.h">
+      <Filter>Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureLoader.h">
+      <Filter>Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderManager.h">
+      <Filter>Shader\ShaderTool</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader_ConstantBuffer_Parts.h">
+      <Filter>Shader\ShaderParts</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader_Layout_Compile_Parts.h">
+      <Filter>Shader\ShaderParts</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader_SampleState_Parts.h">
+      <Filter>Shader\ShaderParts</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderComponent.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureShader.h">
+      <Filter>Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraComponent.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="EnumTemplate.h">
+      <Filter>Message</Filter>
+    </ClInclude>
+    <ClInclude Include="JMessage.h">
+      <Filter>Message</Filter>
+    </ClInclude>
+    <ClInclude Include="Actor.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="JTrace.h">
+      <Filter>Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="InputComponent.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="World.h">
+      <Filter>World</Filter>
+    </ClInclude>
+    <ClInclude Include="ControlComponent.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Pawn.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="MyPawn.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderTexture.h">
+      <Filter>RenderTexture</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>Object\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="Font.h">
+      <Filter>Font</Filter>
+    </ClInclude>
+    <ClInclude Include="FontLoader.h">
+      <Filter>Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="TextComponent.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Text.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="TextShader.h">
+      <Filter>Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="Terrain.h">
+      <Filter>Object\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="TerrainMapLoader.h">
+      <Filter>Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorShader.h">
+      <Filter>Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="AmbientLightShader.h">
+      <Filter>Shader</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\ShaderData\TextureShader_ps.hlsl">
+      <Filter>Shader\ShaderData</Filter>
+    </FxCompile>
+    <FxCompile Include="..\ShaderData\TextureShader_vs.hlsl">
+      <Filter>Shader\ShaderData</Filter>
+    </FxCompile>
+    <FxCompile Include="..\ShaderData\TextShader_ps.hlsl">
+      <Filter>Shader\ShaderData</Filter>
+    </FxCompile>
+    <FxCompile Include="..\ShaderData\TextShader_vs.hlsl">
+      <Filter>Shader\ShaderData</Filter>
+    </FxCompile>
+    <FxCompile Include="..\ShaderData\ColorShader_ps.hlsl">
+      <Filter>Shader\ShaderData</Filter>
+    </FxCompile>
+    <FxCompile Include="..\ShaderData\ColorShader_vs.hlsl">
+      <Filter>Shader\ShaderData</Filter>
+    </FxCompile>
+    <FxCompile Include="..\ShaderData\Light_ps.hlsl">
+      <Filter>Shader\ShaderData</Filter>
+    </FxCompile>
+    <FxCompile Include="..\ShaderData\Light_vs.hlsl">
+      <Filter>Shader\ShaderData</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
