@@ -21,14 +21,14 @@
 *.smod
 
 # Compiled Static libraries
-*.lai
-
-/.vs 
+*.lai 
 *.la
 *.a
-*.lib
 
 # Executables
 *.exe
 *.out
 *.app
+
+
+/.vs
